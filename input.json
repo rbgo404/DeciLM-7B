@@ -1,14 +1,7 @@
-{
-    "inputs": [
-      {
-        "data": [
-          "What is an AI?"
-        ],
-        "name": "prompt",
-        "shape": [
-          1
-        ],
-        "datatype": "BYTES"
-      }
-    ]
-}
+INPUT_SCHEMA = {
+    "prompt": {
+        'datatype': 'STRING',
+        'required': True,
+        'shape': [1],
+        'example': ["What is an AI?"]
+    }
